@@ -26,7 +26,7 @@ int main()  {
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf(" %d", &pontoturistico1);
 
-   //Carta 2 - variáveis
+   // Carta 2 - variáveis
    char estado2;
    char codigo2[4];
    char cidade2[50];
