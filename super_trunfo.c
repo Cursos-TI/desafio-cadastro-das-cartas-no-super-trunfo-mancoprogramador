@@ -34,7 +34,7 @@ int main()  {
    float area2, pib2;
    int pontoturistico2;
    
-   //Entrada de dados - Carta 2
+   // Entrada de dados - Carta 2
    printf("\nDigite o estado da Carta 2 (A-H):\n");
    scanf(" %c", &estado2);
    printf("Digite o código da carta 2 (Ex: B01):\n");
