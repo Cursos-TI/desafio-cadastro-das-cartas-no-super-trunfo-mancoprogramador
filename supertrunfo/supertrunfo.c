@@ -11,19 +11,20 @@ int main()  {
     int pontoturistico1;
 
     // Entrada de dados - Carta 1
-    printf("Digite o estado da Carta 1 (A-H):\n");
+    printf("Digite o estado da Carta 1 (A-H): ");
     scanf(" %c", &estado1);
-    printf("Digite o código da Carta 1 (Ex: A01):\n");
+    printf("Digite o código da Carta 1 (Ex: A01): ");
     scanf(" %s", codigo1);
-    printf("Digite o nome da cidade:\n");
+    printf("Digite o nome da cidade: ");
     scanf(" %s", cidade1);
-    printf("Digite a população:\n");
+    printf("Digite a população: ");
     scanf(" %d", &populacao1);
-    printf("Digite a área (km²):\n");
+    printf("Digite a área (km²): ");
     scanf(" %f", &area1);
-    printf("Digite o PIB:\n");
+    printf("Digite o PIB: ");
+    
     scanf(" %f", &pib1);
-    printf("Digite a quantidade de pontos turísticos:\n");
+    printf("Digite a quantidade de pontos turísticos: ");
     scanf(" %d", &pontoturistico1);
 
    // Carta 2 - variáveis
@@ -35,19 +36,21 @@ int main()  {
    int pontoturistico2;
    
    // Entrada de dados - Carta 2
-   printf("\nDigite o estado da Carta 2 (A-H):\n");
+   printf("\nDigite o estado da Carta 2 (A-H): ");
    scanf(" %c", &estado2);
-   printf("Digite o código da carta 2 (Ex: B01):\n");
+   printf("Digite o código da carta 2 (Ex: B01): ");
+
    scanf(" %s", codigo2);
-   printf("Digite o nome da cidade:\n");
+   printf("Digite o nome da cidade: ");
    scanf(" %s", cidade2);
-   printf("Digite a população:\n");
+   printf("Digite a população: ");
    scanf(" %d", &populacao2);
-   printf("Digite a área (km²):\n");
+   printf("Digite a área (km²): ");
    scanf(" %f", &area2);
-   printf("Digite o PIB:\n");
+   printf("Digite o PIB: ");
+   
    scanf(" %f", &pib2);
-   printf("Digite a quantidade de pontos turísticos:\n");
+   printf("Digite a quantidade de pontos turísticos: ");
    scanf(" %d", &pontoturistico2);
 
    // Exibição das informações - Carta 1
